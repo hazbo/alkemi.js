@@ -4,6 +4,10 @@ Alkemi.js is a JavaScript http client for Alkemi which gives
 you up-to-date exchange rate information and helps with
 currency conversion.
 
+This is still in the very early stages of development. Things
+are going to change, so I recommend not using it for anything
+important just yet.
+
 ### Usage
 
 ```javascript
