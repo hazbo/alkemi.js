@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Untitled</title>
+		<script src="../dist/alkemi.js"></script>
+		<script>
+			Alkemi.rates("EUR", "GBP", function(response) {
+				console.log(response);
+			});
+
+			Alkemi.convert("GBP", "USD", 20, function(response) {
+				console.log(response);
+			});
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
